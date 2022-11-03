@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Select</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+</head>
+<body>
+	<center>
+		<u><h1>Select</h1></u>
+		<div class="margen1">
+			<br><br>
+		<h2>"EJEMPLO: 1 valor cada vez"</h2>
+		<form action="enviar_datos.php" method="post">
+			<h2>Datos desplegables</h2>
+			<label>Lista de Navegadores Web</label><br>
+			<select id="navegadores" name="navegadores">
+				<option>--Seleccionar una opcion--</option>
+				<option>Mozilla Firefox</option>
+				<option>Internet Explore</option>
+				<option>Google Chrome</option>
+				<option>Opera</option>
+			</select>
+			<br><br><br>
+		</div>
+		<div class="margen2">
+			<br><br>
+			<h2>"EJEMPLO: varios datos a la vez "</h2>
+		<form action="enviar_datos.php" method="post">
+			<h2>Datos desplegables</h2>
+			<label>Lista de Navegadores Web</label><br>
+			<select id="navegadores" name="navegadores" size="5">
+				<option>--Seleccionar una opcion--</option>
+				<option>Mozilla Firefox</option>
+				<option>Internet Explore</option>
+				<option>Google Chrome</option>
+				<option>Opera</option>
+			</select>
+			<br><br><br>
+		</div>
+		<div class="margen3">
+			<br><br>
+		<h2>"EJEMPLO: varios datos a la vez y seleccion multiple "</h2>
+		<form action="enviar_datos.php" method="post">
+			<h2>Datos desplegables</h2>
+			<label>Lista de Navegadores Web</label><br>
+			<select id="navegadores" name="navegadores" size="5" multiple="multiple">
+				<option>--Seleccionar varias--</option>
+				<option>Mozilla Firefox</option>
+				<option>Internet Explore</option>
+				<option>Google Chrome</option>
+				<option>Opera</option>
+			</select>		
+		</form>
+
+	</center>
+	<br><br><br><br>
+		</div>
+</body>
+</html>

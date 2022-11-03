@@ -1,0 +1,103 @@
+body{
+	font-family: arial, helvetica;
+	background: white;
+
+}
+
+header{
+	width: 100%;
+	background: white;
+	height: 70px;
+}
+
+.ancho{
+	width: 80%;
+	height: 70px;
+	background: yellow;
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	background: blue;
+	float: left;
+}
+.letra{
+	width: 70%;
+	height: 70px;
+	background: black;
+	float: left;
+}
+
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li{
+	float: left;
+}
+#menu a{
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	display: block;
+	padding: 12px 26px;
+	font-family: "Oswald";
+	font-size: 18px;
+}
+#menu{
+	background: rgba(102, 102, 102, 1);
+	width: 1700px;
+	height: 50px;
+}
+.barra{
+	color: rgba(153, 153, 153, 1);
+	padding: 15px 0 0 0;
+}
+#menu a:hover{
+	color: yellow;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.informacion{
+	width: 800px;
+	text-align: left;
+	background: lightyellow;
+}
+
+.margen{
+	background: red;
+	width: 600px;
+	background: #4646D6;
+}
+.margen1{
+	background: red;
+	width: 600px;
+	background: #CF5592;
+
+}
+.margen2{
+	background: red;
+	width: 600px;
+	background: #8755CF;
+
+}
+.margen3{
+	background: red;
+	width: 600px;
+	background: #55CFCF;
+
+}
+.margen4{
+	background: red;
+	width: 600px;
+	background: #C9EAEA;
+
+}
+
+
+footer{
+	text-align: center;
+	color: white;
+	background: #7C8091;
+}

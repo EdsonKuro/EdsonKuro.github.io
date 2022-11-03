@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Aplicacion</title>
+	
+</head>
+<body background="../imagenes/dota1.jpg">
+	<div>
+		<font color="blue"><u><h1>Solicitud de inscripcion a Dota 2</h1></u></font>
+		<form action="enviar_datos.php" method="post">
+	<fieldset>
+		<legend>Datos personales</legend>
+		<font color="#37FF06"><label>Nombres:</label><br></font>
+		<input type="text" name="nombre" value=""/><br>
+		<font color="#37FF06"><label>Apellidos:</label><br></font>
+		<input type="text" name="apellidos" value=""/><br>
+		<font color="#37FF06"><label>C.I.:</label><br></font>
+		<input type="text" name="ci" value=""/><br>
+		<font color="#37FF06"><label>Direccion:</label><br></font>
+		<input type="text" name="direccion" value=""/><br>
+		<font color="#37FF06"><label>Ciudad:</label><br></font>
+		<input type="text" name="ciudad" value=""/><br><br>
+		<font color="#37FF06"><label>Foto de perfil:</label></font>
+		<input type="text" name="nombre" value=""/>
+		<input type="button" name="elegir" value="Elegir..."/><br><br> 
+		<font color="#37FF06"><label>Trabajas en algo?</label></font>
+		<input type="radio" name="trabajo" value="hombre" checked="checked" />Si
+		<input type="radio" name="trabajo" value="mujer" />No<br>
+		
+	</Fieldset> 
+	<br><br>
+	<fieldset>
+		<legend>Datos de jugador</legend>
+		<font color="#FF7F06"><label>Nombre de usuario:</label><br></font>
+		<input type="text" name="nombre" value="" maxlength="10"/><br>
+		<font color="#FF7F06"><label>Id de usuario:</label><br></font>
+		<input type="text" name="idDota" value="" maxlength="10"/><br>
+		<font color="#FF7F06"><label>Heroe Favorito:</label><br></font>
+		<input type="text" name="heroe" value="" maxlength="10"/><br>
+		
+		<font color="#FF7F06"><label>Lista de posiciones que juegas:</label><br><br></font>
+			<select id="posiciones" name="posiciones" size="6" multiple="multiple">
+				<option>--Seleccionar varias--</option>
+				<option>1ra posicion: Hard Carry</option>
+				<option>2da posicion: Semicarry o Mid</option>
+				<option>3ra posicion: Offlaner</option>
+				<option>4ta posicion: Apoyo</option>
+				<option>5ta posicion: Apoyo primario</option>
+			</select><br>
+			<font color="#FF7F06"><label>Descripcion de modalidad de juego:</label><br></font>
+			<textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea><br>
+			<font color="#FF7F06"><label>Clasificacion de heroe que manejas:</label><br></font>
+			<input name="fuerza" type="checkbox" value="direccion" /> Fuerza<br>
+			<input name="agilidad" type="checkbox" value="tecnico" /> Agilidad<br>
+			<input name="inteligencia" type="checkbox" value="empleado" /> Inteligencia<br>
+	</Fieldset>
+	<br><br>
+	<center>
+	<input type="submit" name="enviar" value="ENVIAR DATOS"/>
+	</center>
+	</form>
+	</div>
+
+</body>
+</html>
